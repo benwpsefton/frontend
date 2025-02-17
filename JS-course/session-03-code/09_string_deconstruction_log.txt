@@ -1,0 +1,5 @@
+//log file
+
+var language = ‘JavaScript’;
+language.slice(4); // Script
+language.slice(0,4); // Java

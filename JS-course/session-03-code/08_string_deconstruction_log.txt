@@ -1,0 +1,6 @@
+//log file
+
+var fullName = 'Tony Evans';
+fullName.indexOf('T'); // 0
+fullName.indexOf('o'); // 1
+fullName.indexOf(' '); // 5
