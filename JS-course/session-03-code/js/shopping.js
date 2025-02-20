@@ -4,10 +4,13 @@
 // Function called when the form is submitted.
 // Function performs the calculation and returns false.
 
-	
-	// Format the total:
-	    
- // End of calculate() function.
+// Format the total:
 
+// End of calculate() function.
 
- // End of init() function.
+function init() {
+	'use strict';
+	document.getElementById('theForm').onsubmit = calculate;
+} // End of init() function.
+
+window.onload = init;

@@ -12,6 +12,6 @@
 function init() {
 	'use strict';
 	document.getElementById('theForm').onsubmit = calculate;
-
-}// End of init() function.
+}
+// End of init() function.
 window.onload = init;
