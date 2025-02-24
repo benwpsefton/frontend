@@ -1,12 +1,9 @@
-<!-- Version 2.0 -->
-<!-- This HTML is not correct. You will need to fix all html errors using W3Validator and add semantics for HTML5 including headings-->
-<!-- You will need add a title and your name -->
-<!-- Add or remove for a semantically valid page -->
-<!-- There are incorrect elements -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-   <meta>
-  <title>?????</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ben Sefton - HTML/JS AT1.1</title>
   <link href="css/task1.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -17,7 +14,7 @@
   <div class="content">
     <h2>JavaScript and HTML</h2>
     <h4>Task 1: Simple Variables</h4>
-    <form name="theForm" method="post">
+    <form action="" method="post" id="theForm">
       <fieldset>
         <legend>Calculator</legend>
 		<ul>
@@ -27,29 +24,36 @@
           <input type="number" name="number" id="number" value="0" min="1" required>
         </li>
         <li>
-          <input type="submit" name="calculate" id="calculate" value="Calculate"></p>
+          <p><input type="submit" name="calculate" id="calculate" value="Calculate"></p>
         </li>
-		
-          <label>The Factorial of your number is:
+        <li>
+        <p>
+          <label>The factorial of your number is:
             <input type="text" name="factorial" id="factorial">
           </label>
         </p>
+        </li>
+        <li>
         <p>
           <label>The square of your number is:
             <input type="text" name="squared" id="squared">
           </label>
         </p>
+        </li>
+        <li>
         <p>
           <label>The cube of your number is:
             <input type="text" name="cubed" id="cubed">
           </label>
+        </p>
+        </li>
         </ul>
       </fieldset>
     </form>
 <p>&nbsp;</p>
   <!-- end .content --></div>
   <div class="footer">
-    <p>student name</p>
+    <p>Ben Sefton</p>
     <!-- end .footer --></div>
   <!-- end .container --></div>
   <script src="js/task1.js"></script>
