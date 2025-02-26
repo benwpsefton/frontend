@@ -1,1 +1,0 @@
-[24-Feb-2025 02:52:17 UTC] WordPress database error Server shutdown in progress for query SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1 made by _get_cron_lock

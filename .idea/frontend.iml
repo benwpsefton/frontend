@@ -6,6 +6,15 @@
       <sourceFolder url="file://$MODULE_DIR$/CMS-week-1/wordpress1/wp-includes/SimplePie/src" isTestSource="false" packagePrefix="SimplePie" />
       <sourceFolder url="file://$MODULE_DIR$/CMS-week-1/wordpress2/wp-includes" isTestSource="false" packagePrefix="PHPMailer" />
       <sourceFolder url="file://$MODULE_DIR$/CMS-week-1/wordpress2/wp-includes/SimplePie/src" isTestSource="false" packagePrefix="SimplePie" />
+      <sourceFolder url="file://$MODULE_DIR$/CMS/laragon/current-installation/laragon/etc/apps/phpMyAdmin/libraries/classes" isTestSource="false" packagePrefix="PhpMyAdmin" />
+      <sourceFolder url="file://$MODULE_DIR$/CMS/laragon/current-installation/laragon/www/wordpress1/wp-includes" isTestSource="false" packagePrefix="PHPMailer" />
+      <sourceFolder url="file://$MODULE_DIR$/CMS/laragon/current-installation/laragon/www/wordpress1/wp-includes/SimplePie/src" isTestSource="false" packagePrefix="SimplePie" />
+      <sourceFolder url="file://$MODULE_DIR$/CMS/laragon/current-installation/laragon/www/wordpress2/wp-includes" isTestSource="false" packagePrefix="PHPMailer" />
+      <sourceFolder url="file://$MODULE_DIR$/CMS/laragon/current-installation/laragon/www/wordpress2/wp-includes/SimplePie/src" isTestSource="false" packagePrefix="SimplePie" />
+      <sourceFolder url="file://$MODULE_DIR$/CMS/week-1/wordpress1/wp-includes" isTestSource="false" packagePrefix="PHPMailer" />
+      <sourceFolder url="file://$MODULE_DIR$/CMS/week-1/wordpress1/wp-includes/SimplePie/src" isTestSource="false" packagePrefix="SimplePie" />
+      <sourceFolder url="file://$MODULE_DIR$/CMS/week-1/wordpress2/wp-includes" isTestSource="false" packagePrefix="PHPMailer" />
+      <sourceFolder url="file://$MODULE_DIR$/CMS/week-1/wordpress2/wp-includes/SimplePie/src" isTestSource="false" packagePrefix="SimplePie" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
