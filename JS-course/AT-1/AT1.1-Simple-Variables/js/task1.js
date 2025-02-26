@@ -11,23 +11,24 @@ function calculate() {
 	var check = number === 1;
 	var squared = number * number;
 	var cubed = number * number * number;
-	function fact() {
+	var factorial = function fact() {
 		if (number < 0) { // elimination of negative numbers
-			document.getElementById('factorial').value = "Error";
+			number = "Error";
 		}
 		else if (number === 0) {
-			document.getElementById('factorial').value = "1";
+			number = 1;
 		}
 		else {
 			let fact = 1;
 			for (i - 1; i <= number; i++) {
 				fact *= i;
 			}
-			document.getElementById('factorial').value = fact;
+		number = fact;
 		}
 	}
 
 	// Re-assigns calculated values to original elements
+	document.getElementById('factorial').value = factorial;
 	document.getElementById('squared').value = squared;
 	document.getElementById('cubed').value = cubed;
 
