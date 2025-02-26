@@ -7,22 +7,32 @@ calculates the number's factorial. A factorial is the product of an integer and 
 
 function calculate(){
 	'use strict';
-    let number = document.getElementById('number').value;
-    let check = number === 1;
-	let squared = number * number;
-	let cubed = number * number * number;
-	function factorial(n){
-		let fact = 1;{
+    const number = document.getElementById('number').value;
+    var check = number === 1;
+	var squared = number * number;
+	var cubed = number * number * number;
+
+	// factorial finding
+	if (number < 0){ // elimination of negative numbers
+		document.getElementById('factorial').value = "Error. Number must be positive to have a factorial."
+	}
+	else if (number === 0){
+		document.getElementById('factorial').value = "The factorial of this value is 1."
+	}
+
+
+	/* function factorial(n){
+		var fact = 1;{
 			while (n > 1) {
 				factorial *= n;
 				n--;
 			}
 		return fact;
 		}
-	}
+	} */
 
 	// Re-assigns calculated values to original elements
-	document.getElementById('factorial').value = fact;
+	document.getElementById('factorial').value = factorial;
 	document.getElementById('squared').value = squared;
 	document.getElementById('cubed').value = cubed;
 	
