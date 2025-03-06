@@ -1,0 +1,29 @@
+
+
+body, table, th, td {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  border-style: solid;
+  border-color: #D6EEEE;
+  margin: 25% auto;
+  width: 80%;
+}
+
+th, td {
+  padding: 8px;
+  border-style: solid;
+  border-color: #D6EEEE; 
+  text-align: center;
+}
+
+tr {
+  background-color: #D6EEEE;
+}
+
+.flex-container {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}

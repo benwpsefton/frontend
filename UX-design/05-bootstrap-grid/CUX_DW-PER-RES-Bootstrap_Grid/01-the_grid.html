@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Grid Layout</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/mycss.css" rel="stylesheet" />
+    
+  </head>
+  <body>
+    <div class="w3-responsive">
+	<h1>Bootstrap Grid Layout</h1>
+	<p>Bootstrap's grid system is built with flexbox and allows up to 12 columns across the page.</p>
+
+	<p>If you do not want to use all 12 columns individually, you can group the columns together to create wider columns:</p>
+      <table class="table grid">
+        <tbody>
+          <tr>
+            <td>span 1</td>
+            <td>span 1</td>
+            <td>span 1</td>
+            <td>span 1</td>
+            <td>span 1</td>
+            <td>span 1</td>
+            <td>span 1</td>
+            <td>span 1</td>
+            <td>span 1</td>
+            <td>span 1</td>
+            <td>span 1</td>
+            <td>span 1</td>
+          </tr>
+          <tr>
+            <td colspan="4">&nbsp;span 4</td>
+            <td colspan="4">&nbsp;span 4</td>
+            <td colspan="4">&nbsp;span 4</td>
+          </tr>
+          <tr>
+            <td colspan="4">span 4</td>
+            <td colspan="8">span 8</td>
+          </tr>
+          <tr>
+            <td colspan="6">span 6</td>
+            <td colspan="6">span 6</td>
+          </tr>
+          <tr>
+            <td colspan="12">span 12</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
