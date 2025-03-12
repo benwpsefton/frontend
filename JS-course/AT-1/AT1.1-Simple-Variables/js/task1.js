@@ -11,21 +11,16 @@ function calculate() {
 	var check = number === 1;
 	var squared = number * number;
 	var cubed = number * number * number;
-	var factorial = function fact() {
-		if (number < 0) { // elimination of negative numbers
-			number = "Error";
+	function factorialise(number) { //establishing factorial function before variable creation
+		let result = 1;
+	  
+		for (let i = 2; i <= number; i++) {
+		  result = result * i;
 		}
-		else if (number === 0) {
-			number = 1;
-		}
-		else {
-			let fact = 1;
-			for (i - 1; i <= number; i++) {
-				fact *= i;
-			}
-		number = fact;
-		}
-	}
+	  
+		return result;
+	  }
+	var factorial = factorialise(number);
 
 	// Re-assigns calculated values to original elements
 	document.getElementById('factorial').value = factorial;
