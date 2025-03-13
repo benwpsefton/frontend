@@ -33,7 +33,6 @@ function calculate() {
 function check(number) {
 	'use strict';
 	var number = document.getElementById('number').value;
-	var checked = check(number);
 	if (Number.isInteger(number)) {
 		return true;
 	}
@@ -45,7 +44,7 @@ function check(number) {
 function init() {
 	'use strict';
 	document.getElementById('theForm').onsubmit = check;
-	if (checked = true) {
+	if (check = true) {
 		document.getElementById('theForm').onsubmit = calculate;
 	}
 	else {
