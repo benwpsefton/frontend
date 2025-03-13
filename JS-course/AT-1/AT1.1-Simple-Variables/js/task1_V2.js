@@ -30,10 +30,28 @@ function calculate() {
 
 } // End of calculate() function.
 
+function check(number) {
+	'use strict';
+	var number = document.getElementById('number').value;
+	var checked = check(number);
+	if (Number.isInteger(number)) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
 
 function init() {
 	'use strict';
-	document.getElementById('theForm').onsubmit = calculate;
+	document.getElementById('theForm').onsubmit = check;
+	if (checked = true) {
+		document.getElementById('theForm').onsubmit = calculate;
+	}
+	else {
+		alert("Please enter a valid number.");
+		location.reload(true);
+	}
 
 	return false;
 

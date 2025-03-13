@@ -8,18 +8,24 @@ calculates the number's factorial. A factorial is the product of an integer and 
 function calculate() {
 	'use strict';
 	var number = document.getElementById('number').value;
-	var squared = number * number;
-	var cubed = number * number * number;
-	function factorialise(number) { //establishing factorial function before variable creation
-		let result = 1;
-	  
-		for (let i = 2; i <= number; i++) {
-		  result = result * i;
+	function check(number) {
+		if (Number.isInteger(number)) {
+			var squared = number * number;
+			var cubed = number * number * number;
+			function factorialise(number) { //establishing factorial function before variable creation
+				let result = 1;
+
+				for (let i = 2; i <= number; i++) {
+					result = result * i;
+				}
+
+				return result;
+			}
+			var factorial = factorialise(number);
 		}
-	  
-		return result;
-	  }
-	var factorial = factorialise(number);
+		return "Please enter valid number!";
+	}
+
 
 	// Re-assigns calculated values to original elements
 	document.getElementById('factorial').value = factorial;
