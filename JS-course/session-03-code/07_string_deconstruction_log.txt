@@ -1,5 +1,0 @@
-//log file
-
-var fullName = ‘Tony Evans’;
-fullName.charAt(0); // T
-fullName.charAt(9); // s

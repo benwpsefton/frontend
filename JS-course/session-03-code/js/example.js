@@ -1,2 +1,0 @@
-
-alert("Arnie says hi!");
